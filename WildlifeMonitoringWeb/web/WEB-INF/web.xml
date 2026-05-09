@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                               http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!-- ========================= -->
+    <!-- Animal Servlet -->
+    <!-- ========================= -->
+    <servlet>
+        <servlet-name>AnimalServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.AnimalServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SpeciesDashboardServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.SpeciesDashboardServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AnimalListServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.AnimalListServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddAnimalServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.AddAnimalServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AnimalServlet</servlet-name>
+        <url-pattern>/AnimalServlet</url-pattern>
+    </servlet-mapping>
+    <!-- ========================= -->
+    <!-- Camera Servlet -->
+    <!-- ========================= -->
+    <servlet>
+        <servlet-name>CameraServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.CameraServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CameraServlet</servlet-name>
+        <url-pattern>/CameraServlet</url-pattern>
+    </servlet-mapping>
+    <!-- ========================= -->
+    <!-- Alert Servlet -->
+    <!-- ========================= -->
+    <servlet>
+        <servlet-name>AlertServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.AlertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AlertServlet</servlet-name>
+        <url-pattern>/AlertServlet</url-pattern>
+    </servlet-mapping>
+    <!-- ========================= -->
+    <!-- Auto Alert -->
+    <!-- ========================= -->
+    <servlet>
+        <servlet-name>AutoAlertServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.AutoAlertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AutoAlertServlet</servlet-name>
+        <url-pattern>/auto-alert</url-pattern>
+    </servlet-mapping>
+    <!-- ========================= -->
+    <!-- Assign Animal -->
+    <!-- ========================= -->
+    <servlet>
+        <servlet-name>AssignAnimalServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.AssignAnimalServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AssignAnimalServlet</servlet-name>
+        <url-pattern>/assign-animal</url-pattern>
+    </servlet-mapping>
+    <!-- ========================= -->
+    <!-- Detection -->
+    <!-- ========================= -->
+    <servlet>
+        <servlet-name>DetectionServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.DetectionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DetectionServlet</servlet-name>
+        <url-pattern>/DetectionServlet</url-pattern>
+    </servlet-mapping>
+    <!-- ========================= -->
+    <!-- Dashboard -->
+    <!-- ========================= -->
+    <servlet>
+        <servlet-name>DashboardServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.DashboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DashboardServlet</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>
+    <!-- ========================= -->
+    <!-- Animal Profile -->
+    <!-- ========================= -->
+    <servlet>
+        <servlet-name>AnimalProfileServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.AnimalProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AnimalProfileServlet</servlet-name>
+        <url-pattern>/animal-profile</url-pattern>
+    </servlet-mapping>
+    <!-- ========================= -->
+    <!-- Image Servlet -->
+    <!-- ========================= -->
+    <servlet>
+        <servlet-name>ImageServlet</servlet-name>
+        <servlet-class>com.wildlife.servlet.ImageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ImageServlet</servlet-name>
+        <url-pattern>/image</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SpeciesDashboardServlet</servlet-name>
+        <url-pattern>/SpeciesDashboardServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AnimalListServlet</servlet-name>
+        <url-pattern>/AnimalListServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddAnimalServlet</servlet-name>
+        <url-pattern>/AddAnimalServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

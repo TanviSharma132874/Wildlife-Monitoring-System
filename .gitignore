@@ -1,0 +1,19 @@
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Storage
+*.mp4
+*.avi
+*.zip
+*.pt
+*.pth
+
+# OS
+Thumbs.db
+.DS_Store
