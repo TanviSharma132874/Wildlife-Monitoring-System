@@ -179,6 +179,28 @@ Species breakdown showing animal count for each species (Tiger, Elephant, Leopar
 ![Tiger Records](docs/images/07-tiger-records.png)
 Species-specific animal records showing all tigers registered in the system with their ID, name, gender, age, and profile view options.
 
+## Animal Profiles with Re-Identification Tracking
+
+### Tiger Profile - Confidence Trend & Detection History
+![Tiger Profile](docs/images/08-tiger-profile.jpg)
+Individual tiger profile showing confidence trend analysis over time and complete detection history with multiple sightings, timestamps, and detection images.
+
+### Leopard Profile - Multi-Detection Tracking
+![Leopard Profile](docs/images/09-leopard-profile.jpg)
+Leopard re-identification showcase displaying multiple detections of the same individual animal across different times and locations, proving the system's ability to recognize and track the same animal.
+
+### Elephant Profile - Activity Monitoring
+![Elephant Profile](docs/images/10-elephant-profile.jpg)
+Elephant profile with confidence trend graph showing how detection confidence varies over time, along with complete detection history of this individual animal.
+
+### Monkey Profile - Confidence Trend Analysis
+![Monkey Profile](docs/images/11-monkey-profile.jpg)
+Monkey animal profile demonstrating the confidence trend visualization and detection timeline, showing all instances when this specific animal was detected.
+
+### Rhino Profile - Status Tracking
+![Rhino Profile](docs/images/12-rhino-profile.jpg)
+Rhino profile with MISSING status indicator, showing the system's ability to track animal status (ACTIVE, LOW ACTIVITY, MISSING) and maintain historical detection records.
+
 ---
 
 # System Workflow
