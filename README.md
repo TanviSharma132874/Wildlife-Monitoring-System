@@ -333,11 +333,6 @@ Further improvements are ongoing.
 
 ---
 
-# Mentor Acknowledgement
-
-I sincerely appreciate the guidance, mentorship, and valuable feedback from Dr. Ravikumar R Natarajan throughout this project journey.
-
----
 
 # Author
 
